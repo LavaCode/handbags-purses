@@ -20,10 +20,4 @@ function Tile({ className, image, title, text, children }) {
     }
 }
 
-function log(boolean) {
-    if (boolean === 'true') {
-        console.log('this is a image');
-    }
-}
-
 export default Tile
