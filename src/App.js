@@ -1,5 +1,10 @@
 import React from 'react';
 import Button from './components/Button';
+import Product from './components/Product';
+import tas1 from './assets/bag_1.jpg';
+import tas2 from './assets/bag_2.jpg';
+import tas3 from './assets/bag_3.jpg';
+import tas4 from './assets/bag_4.jpg';
 import './App.css';
 
 function App() {
@@ -13,19 +18,30 @@ function App() {
       </nav>
 
       <main>
-        <article>
-          <span className="imageLabel">Best seller</span>
-        </article>
-        <article>
-          <span className="imageLabel">Best seller</span>
-        </article>
-        <article>
-          <span className="imageLabel">Best seller</span>
-        </article>
-        <article>
-          <span className="imageLabel">Best seller</span>
-        </article>
-
+        <Product
+          image={tas1}
+          label="Best seller"
+          name="The Handy Bag"
+          price="€400,-"
+        />
+        <Product
+          image={tas2}
+          label="Best seller"
+          name="The Stylish Bag"
+          price="€250,-"
+        />
+        <Product
+          image={tas3}
+          label="New collection"
+          name="The Simple Bag"
+          price="€300,-"
+        />
+        <Product
+          image={tas4}
+          label="New collection"
+          name="The Trendy Bag"
+          price="€150,-"
+        />
       </main>
     </>
   );
