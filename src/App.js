@@ -5,6 +5,8 @@ import tas1 from './assets/bag_1.jpg';
 import tas2 from './assets/bag_2.jpg';
 import tas3 from './assets/bag_3.jpg';
 import tas4 from './assets/bag_4.jpg';
+import brand from'./assets/brand.jpg';
+import story from './assets/our_story.jpg';
 import './App.css';
 
 function App() {
@@ -43,6 +45,13 @@ function App() {
           price="€150,-"
         />
       </main>
+
+      <footer>
+        <section className="tile-1"></section>
+        <section className="tile-2"></section>
+        <section className="tile-3"></section>
+        <section className="tile-4"></section>
+      </footer>
     </>
   );
 }
