@@ -9,11 +9,7 @@ function App() {
       <nav>
         <Button buttonName={'to the collection'} />
         <Button buttonName={'shop all bags'} />
-        <Button buttonName={'pre-orders'} />
-
-        {/* <button>to the collection</button>
-        <button>shop all bags</button>
-        <button>pre-orders</button> */}
+        <Button buttonName={'pre-orders'} disabled={'true'} />
       </nav>
     </>
   );
