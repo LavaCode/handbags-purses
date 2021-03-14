@@ -10,7 +10,6 @@ function Button({ buttonName, disabled }) {
     return (
         <button onClick={() => console.log(`You clicked ${buttonName}`)}>{buttonName}</button>
     )
-
 }
 
 
