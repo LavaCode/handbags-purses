@@ -4,13 +4,14 @@ import '../App.css';
 function Button({ buttonName, disabled }) {
     if (disabled === 'true') {
         return (
-            <button type="button" disabled>{buttonName}</button>
+            <button disabled>{buttonName}</button>
         )
     }
     return (
-        <button type="button">{buttonName}</button>
+        <button onClick={() => console.log(`You clicked ${buttonName}`)}>{buttonName}</button>
     )
 
 }
+
 
 export default Button;

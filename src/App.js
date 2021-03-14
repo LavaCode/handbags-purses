@@ -11,6 +11,22 @@ function App() {
         <Button buttonName={'shop all bags'} />
         <Button buttonName={'pre-orders'} disabled={'true'} />
       </nav>
+
+      <main>
+        <article>
+          <span className="imageLabel">Best seller</span>
+        </article>
+        <article>
+          <span className="imageLabel">Best seller</span>
+        </article>
+        <article>
+          <span className="imageLabel">Best seller</span>
+        </article>
+        <article>
+          <span className="imageLabel">Best seller</span>
+        </article>
+
+      </main>
     </>
   );
 }
