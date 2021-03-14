@@ -12,6 +12,4 @@ function Product({ image, label, name, price }) {
     );
 }
 
-
-
 export default Product;

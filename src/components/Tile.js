@@ -6,7 +6,7 @@ function Tile({ className, image, title, text, children }) {
         return (
             <section className={className}>
                 <img className="footerImage" src={image} alt={title}></img>
-                log('hello');
+
             </section>
         );
     else {
@@ -20,8 +20,8 @@ function Tile({ className, image, title, text, children }) {
     }
 }
 
-function log(boolean){
-    if (boolean === 'true'){
+function log(boolean) {
+    if (boolean === 'true') {
         console.log('this is a image');
     }
 }

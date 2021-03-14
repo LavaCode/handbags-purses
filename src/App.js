@@ -54,24 +54,20 @@ function App() {
           text="Mollit magna fugiat et ex pariatur duis deserunt. Aliquip quis excepteur consectetur labore aute minim do sunt aliquip exercitation. Adipisicing officia pariatur ea ut ut aute eu nostrud laborum adipisicing. Irure aliquip nostrud cupidatat adipisicing consectetur exercitation velit. Anim nulla qui cillum sunt qui sint cillum est labore laboris."
         />
         <Tile
-        className="tile-02"
+          className="tile-02"
           image={brand}
         />
         <Tile
-        className="tile-03"
+          className="tile-03"
           image={story}
         />
         <Tile
-        className="tile-04"
+          className="tile-04"
           title="OUR STORY"
         >
           <p className="footerText">Mollit magna fugiat et ex pariatur duis deserunt. Aliquip quis excepteur consectetur labore aute minim do sunt aliquip exercitation.</p>
           <p className="footerText">Yolo diabolo</p>
         </Tile>
-
-        
-
-
       </footer>
     </>
   );
